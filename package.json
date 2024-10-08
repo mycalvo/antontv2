@@ -1,1 +1,16 @@
 
+{
+  "name": "iptv-server",
+  "version": "1.0.0",
+  "description": "Mini servidor IPTV compatible con API Xtream",
+  "main": "public/index.js",
+  "scripts": {
+    "start": "node public/index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "pg": "^8.5.1",
+    "sequelize": "^6.3.5",
+    "body-parser": "^1.19.0"
+  }
+}
