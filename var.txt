@@ -1,0 +1,11 @@
+1. En el panel de configuración del proyecto en Vercel, ve a la sección Environment Variables (Variables de Entorno).
+
+Añade las siguientes variables de entorno:
+
+Key: DB_HOST Value: La dirección de tu servidor PostgreSQL (por ejemplo, localhost o la URL de tu base de datos en la nube).
+
+Key: DB_DATABASE Value: El nombre de tu base de datos (por ejemplo, iptv).
+
+Key: DB_USERNAME Value: El nombre de usuario de tu base de datos.
+
+Key: DB_PASSWORD Value: La contraseña de tu base de datos
