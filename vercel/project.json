@@ -1,8 +1,8 @@
 {
-    "builds": [
-        {
-            "src": "public/index.php",
-            "use": "@vercel/php"
-        }
-    ]
+  "builds": [
+    {
+      "src": "public/index.js",
+      "use": "@vercel/node"
+    }
+  ]
 }
